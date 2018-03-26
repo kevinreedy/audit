@@ -121,7 +121,7 @@ node.default['audit']['profiles'].push("path": "#{PROFILES_PATH}/mylinux-failure
     },
     # profile from Chef Compliance at a particular version
     {
-      "name":linux-baseline",
+      "name": "linux-baseline",
       "compliance": "user/linux-baseline",
       "version": "2.1.0"
     },
