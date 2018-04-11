@@ -76,9 +76,9 @@ suites:
       audit:
         reporter: json-file
         profiles:
-          - name: ssh-hardening
-            url: https://github.com/dev-sec/tests-ssh-hardening/archive/master.zip
-          - git: https://github.com/dev-sec/tests-ssh-hardening.git
+          - name: ssh-baseline
+            url: https://github.com/dev-sec/ssh-baseline/archive/master.zip
+          - git: https://github.com/dev-sec/ssh-baseline.git
           - name: ssh-baseline
             supermarket: dev-sec/ssh-baseline
   - name: inspec-attributes
